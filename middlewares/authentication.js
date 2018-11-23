@@ -16,5 +16,4 @@ module.exports = async (req, res, next) => {
         res.status(401).send({ message: 'Você precisa informar um token para acessar esse recurso.' });
         return;
     }
-
 }

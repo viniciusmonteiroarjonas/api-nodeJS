@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/categoria-controller');
-const auth = require('../middlewares/authenctication');
+const auth = require('../middlewares/authentication');
 
 
 let _ctrl = new controller();
