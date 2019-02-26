@@ -1,5 +1,5 @@
 {
-  "name": "API FOOD",
+  "name": "",
   "version": "1.0.0",
   "description": "Api feita em nodeJs para utilização do nosso aplicativo Food",
   "main": "server.js",
@@ -15,5 +15,8 @@
     "jsonwebtoken": "^8.3.0",
     "md5": "^2.2.1",
     "mongoose": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
